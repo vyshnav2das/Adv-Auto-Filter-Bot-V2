@@ -77,6 +77,7 @@ async def settings(bot, update):
         text=text, 
         reply_markup=reply_markup, 
         parse_mode="html",
+        disable_web_page_preview=True,
         reply_to_message_id=update.message_id
         
         )
