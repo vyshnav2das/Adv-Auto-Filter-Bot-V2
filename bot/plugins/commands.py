@@ -32,13 +32,14 @@ async def start(bot, update):
                 document = file_id,
                 caption = caption,
                 parse_mode="html",
+                disable_web_page_preview=True,
                 reply_to_message_id=update.message_id,
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/CrazyBotsz"
+                                    'Developers', url="https://t.me/JNS_BOTS"
                                 )
                         ]
                     ]
@@ -52,12 +53,13 @@ async def start(bot, update):
                 video = file_id,
                 caption = caption,
                 parse_mode="html",
+                disable_web_page_preview=True,
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/CrazyBotsz"
+                                    'Developers', url="https://t.me/jns_bots"
                                 )
                         ]
                     ]
@@ -71,12 +73,13 @@ async def start(bot, update):
                 audio = file_id,
                 caption = caption,
                 parse_mode="html",
+                disable_web_page_preview=True,
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/CrazyBotsz"
+                                    'Developers', url="https://t.me/jns_bots"
                                 )
                         ]
                     ]
@@ -89,10 +92,10 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('Developers', url='https://t.me/CrazyBotsz'),
-        InlineKeyboardButton('Source Code 🧾', url ='https://github.com/AlbertEinsteinTG/Adv-Auto-Filter-Bot-V2')
-    ],[
-        InlineKeyboardButton('Support 🛠', url='https://t.me/CrazyBotszGrp')
+        InlineKeyboardButton('Developers', url='https://t.me/jns_bots'),
+        InlineKeyboardButton('Source Code 🧾', url ='https://t.me/https://t.me/githubsoursecode')],                               
+     [
+        InlineKeyboardButton('Support 🛠', url='https://t.me/jns_fc_bots')
     ],[
         InlineKeyboardButton('Help ⚙', callback_data="help")
     ]]
@@ -105,6 +108,7 @@ async def start(bot, update):
                 update.from_user.first_name),
         reply_markup=reply_markup,
         parse_mode="html",
+        disable_web_page_preview=True,
         reply_to_message_id=update.message_id
     )
 
@@ -125,6 +129,7 @@ async def help(bot, update):
         text=Translation.HELP_TEXT,
         reply_markup=reply_markup,
         parse_mode="html",
+        disable_web_page_preview=True,
         reply_to_message_id=update.message_id
     )
 
