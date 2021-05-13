@@ -48,7 +48,7 @@ For More Details Click Help Button Below..
 """
     
     ABOUT_TEXT = """
-🤖 𝗠𝗬 𝗡𝗔𝗠𝗘 : <a href="https://t.me/JNS_YOYTUBE_BOT">JNS YT DOWNLOADER</a>
+🤖 𝗠𝗬 𝗡𝗔𝗠𝗘 : <a href="https://t.me/JNS_AUTOFILTER_BOT">JNS AUTOFILTER BOT</a>
 
 📣𝗖𝗛𝗔𝗡𝗡𝗘𝗟 : <a href="https://t.me/jns_bots">ＪƝ⟆ ᗷ〇Ƭ⟆</a>
 
