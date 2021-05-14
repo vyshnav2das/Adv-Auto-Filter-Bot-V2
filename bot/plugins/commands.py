@@ -32,7 +32,6 @@ async def start(bot, update):
                 document = file_id,
                 caption = caption,
                 parse_mode="html",
-                disable_web_page_preview=True,
                 reply_to_message_id=update.message_id,
                 reply_markup=InlineKeyboardMarkup(
                     [
