@@ -13,6 +13,7 @@ db = Database()
 
 @Client.on_message(filters.command(["start"]) & filters.private, group=1)
 async def start(bot, update):
+#adding force subscribe option to bot
     update_channel = FORCESUB_CHANNEL
     if update_channel:
         try:
