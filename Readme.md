@@ -1,17 +1,6 @@
 # Adv Auto Filter Bot V2
 
-<p align="center">
-  <a href="https://github.com/AlbertEinsteinTG/Adv-Auto-Filter-Bot-V2/stargazers">
-    <img src="https://img.shields.io/github/stars/AlbertEinsteinTG/Adv-Auto-Filter-Bot-V2?style=social">
-
-  </a>
-  
-  <a href="https://github.com/AlbertEinsteinTG/Adv-Auto-Filter-Bot-V2/fork">
-    <img src="https://img.shields.io/github/forks/AlbertEinsteinTG/Adv-Auto-Filter-Bot-V2?label=Fork&style=social">
-
-  </a>  
-</p>
-
+ 
 __This Is Just An Simple Advance Auto Filter Bot Complete Rewritten Version Of [Adv-Filter-Bot](https://github.com/AlbertEinsteinTG/Adv-Auto-Filter-Bot)..__
 
 __Just Sent Any Text As Query It Will Search For All Connected Chat's Files In Its MongoDB And Reply You With The Message Link As A Button__
@@ -57,9 +46,9 @@ OR
 ------------------
 * ->__Your Bot Token From [@BotFather](http://www.telegram.dog/BotFather)__
 
-* ->__Your APP ID And API Harsh From [Telegram](http://www.my.telegram.org) or [@UseTGXBot](http://www.telegram.dog/UseTGXBot)__
+* ->__Your APP ID And API Harsh From [Telegram](http://www.my.telegram.org) or [@JNS_tg_orgbot](http://www.telegram.dog/JNS_tg_orgbot)__
 
-* ->__Your User Session String Obtained From [@PyrogramStringBot](http://www.telegram.dog/PyrogramStringBot)__
+* ->__Your User Session String Obtained From [@JNS_tg_orgbot](http://www.telegram.dog/JNS_tg_orgbot)__
 
 * ->__Mongo DB URL Obtained From [Mongo DB](http://www.mongodb.com)__
 
@@ -82,7 +71,7 @@ You can deploy this bot anywhere.
 <details><summary>Deploy To VPS</summary>
 <p>
 <pre>
-git clone https://github.com/AlbertEinsteinTG/Adv-Auto-Filter-Bot-V2/tree/blob/main
+git clone https://github.com/JNSBOT/Adv-Auto-Filter-Bot-V2/tree/blob/main
 cd Adv-Auto-Filter-Bot-ReMaster
 pip3 install -r requirements.txt
 # Change The Vars Of bot/__init__.py File Accordingly
