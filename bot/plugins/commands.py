@@ -66,7 +66,7 @@ Join on our channel to get movies ✅
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/JNS_BOTS"
+                                    '⭕ Main Channel ⭕', url="https://t.me/malayalam_movies_h"
                                 )
                         ]
                     ]
@@ -85,7 +85,7 @@ Join on our channel to get movies ✅
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/jns_bots"
+                                    '⭕ Main Channel ⭕', url="https://t.me/malayalam_movies_h"
                                 )
                         ]
                     ]
@@ -104,7 +104,7 @@ Join on our channel to get movies ✅
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/jns_bots"
+                                    '⭕ Main Channel ⭕', url="https://t.me/malayalam_movies_h"
                                 )
                         ]
                     ]
@@ -117,10 +117,10 @@ Join on our channel to get movies ✅
         return
 
     buttons = [[
-        InlineKeyboardButton('Developers', url='https://t.me/jns_bots'),
-        InlineKeyboardButton('Source Code 🧾', url ='https://t.me/https://t.me/githubsoursecode')],                               
+        InlineKeyboardButton('⭕ Main Channel ⭕', url='https://t.me/malayalam_movies_h'),
+        InlineKeyboardButton('🔰NEW MOVIES🔰', url ='https://t.me/joinchat/nTjmNdPYehUyYmE9')],                               
      [
-        InlineKeyboardButton('Support 🛠', url='https://t.me/jns_fc_bots')
+        InlineKeyboardButton('🧿Webseries🧿', url='https://t.me/netflixorgi')
     ],[
         InlineKeyboardButton('Help ⚙', callback_data="help")
     ]]
